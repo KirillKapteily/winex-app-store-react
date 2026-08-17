@@ -1,0 +1,27 @@
+.container{
+    width: 1200px;
+margin: 0 auto;
+}
+
+@media (min-width: 786px) and (max-width: 1199px) {
+.container{
+    width: 786px;
+margin: 0 auto;
+}
+}
+
+@media (min-width: 500px) and (max-width: 785px) {
+.container{
+    width: 500px;
+margin: 0 auto;
+}
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.container{
+    width: 320px;
+margin: 0 auto;
+}
+}
