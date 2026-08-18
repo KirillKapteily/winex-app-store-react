@@ -1,3 +1,11 @@
+:root {
+  --zoom: 80%;
+}
+
+[data-theme="zoomed"] {
+  --zoom: 100%;
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -13,11 +21,15 @@
 }
 
 .modal {
-  max-width: calc(100vw - 48px);
-  max-height: calc(100vh - 24px);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // max-width: calc(100vw - 348px);
+  // max-height: calc(100vh - 324px);
 }
 .img{
-  width: 90%;
+    width: var(--zoom);
   height: auto;
 }
 

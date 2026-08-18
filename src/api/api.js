@@ -1,8 +1,14 @@
 import apps from "../data/apps.json";
+import slides from "../data/slider.json"
 
 export const getApps = () => {
   return apps;
 };
+
+export const getSlider = () => {
+  return slides;
+};
+
 
 export const getAppId = (appId) => {
   return apps.find((app) => app.id === appId);

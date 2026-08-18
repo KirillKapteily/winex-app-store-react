@@ -2,6 +2,7 @@ import AppList from "../components/AppList";
 import { useState, useEffect } from "react";
 import { getApps } from "../api/api";
 import { filterApps } from "../api/api";
+import Slider from "../components/Slider";
 import container from "../styles/container.module.scss";
 import styles from "../styles/selector.module.scss";
 
@@ -46,6 +47,7 @@ export default function Home({ os, setOs }) {
           <option value="no-class">no classification</option>
           <option value="video-editors">video editors</option>
         </select>
+<Slider/>
 
         <h1 className={styles.main__title}>Apps</h1>
         {filter !== "all" && <p className={styles.second__title}>{filter}</p>}

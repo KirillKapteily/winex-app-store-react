@@ -41,7 +41,8 @@ export default function AppDetails({ os }) {
               <p>ID: {app.id}</p>
             </div>
           </div>
-          <div className={styles.app__security}>
+          <div className={styles.more__info__wrapper}>
+<div className={styles.app__security}>
             <ShieldCheck size={64} className={styles.app__security__ico} />
             <p>This software is 100% safe</p>
           </div>
@@ -51,6 +52,7 @@ export default function AppDetails({ os }) {
               This app is developed by <br />{" "}
               <a href={app.devLink}>{app.developer}</a>
             </p>
+          </div>
           </div>
         </div>
 
@@ -66,7 +68,7 @@ export default function AppDetails({ os }) {
         {app.similarApps.length > 0 ? (
           <AppList apps={app.similarApps} />
         ) : (
-          <h3>None D:</h3>
+          <h3 className={styles.none}>None D:</h3>
         )}
       </div>
       {modal !== null && <Modal url={modal} closeModal={closeModal} />}

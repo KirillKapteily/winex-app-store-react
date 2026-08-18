@@ -1,7 +1,6 @@
 .img{
 transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
-  box-shadow:
-    0 4px 15px rgba(0, 0, 0, 0.149);
+
     &:hover {
        transform: scale(1.1);
 

@@ -27,7 +27,7 @@
     transition: transform 1s, color 1s;
 
     &:hover {
-        transform: translateY(-10px);
+        transform: translateY(-10px) scale(1.1);
         color: rgb(0, 157, 255);
     }
 }
@@ -50,7 +50,7 @@
             }
 
             50% {
-                transform: rotate(390deg) scale(1);
+                transform: rotate(390deg) scale(1.1);
             }
 
             100% {
@@ -91,7 +91,7 @@
 
 .img {
   margin-right: 20px;
-  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s, filter cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
+  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s, filter cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 
     &:hover {
        transform: scale(1.1);
@@ -101,6 +101,29 @@
 
 .ico{
     margin-right: 10px;
+}
+.more__info__wrapper{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.none{
+  text-align: center;
+}
+
+
+@media (min-width: 500px) and (max-width: 767px)  {
+  .app__info__wrapper{
+  flex-wrap: wrap;
+  }
+
+    .app__info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
 }
 
 @media (min-width: 320px) and (max-width: 480px)  {

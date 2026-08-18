@@ -1,5 +1,5 @@
-.back__btn{
-    background: #ffffff71;
+.slider__button{
+        background: #ffffff71;
   color: rgb(0, 0, 0);
   border: solid 0.5px white;
   border-left: white;
@@ -24,4 +24,15 @@
     border-left: white;
     border-right: white;
   }
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slider__btn__wrapper{
+     display: flex;
+     gap: 20px;
 }

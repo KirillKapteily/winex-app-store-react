@@ -58,7 +58,7 @@
     ],
     "similarApps": [
       { "id": 1, "title": "Firefox", "img": "firefox" },
-      { "id": 2, "title": "Supermium", "img": "supermium" },
+      { "id": 5, "title": "Supermium", "img": "supermium" },
       { "id": 3, "title": "Microsoft Edge", "img": "microsoftedge" },
       { "id": 4, "title": "Opera", "img": "opera" }
     ],
@@ -758,7 +758,7 @@
         "windows": "https://git-scm.com/download/win"
       }
     ],
-    "screenshots": [{ "id": 1, "url": "firefox-1" }],
+    "screenshots": [{ "id": 1, "url": "gitbash" }],
     "similarApps": [
       { "id": 25, "title": "GitHub Desktop", "img": "githubdesktop" },
       { "id": 24, "title": "VS code", "img": "visualstudiocode" },
@@ -819,7 +819,7 @@
         "macos": "https://downloads.malwarebytes.com/file/mb-mac"
       }
     ],
-    "screenshots": [{ "id": 1, "url": "malwarebytes2" }],
+    "screenshots": [{ "id": 1, "url": "malwarebytes" }],
     "similarApps": [
       { "id": 29, "title": "Bitdefender", "img": "bitdefender" },
       { "id": 30, "title": "Avast", "img": "avast" }
@@ -845,7 +845,7 @@
         "macos": "https://apps.apple.com/us/app/bitdefender-virus-scanner/id500154009?mt=12"
       }
     ],
-    "screenshots": [{ "id": 1, "url": "bitdefender-1" }],
+    "screenshots": [{ "id": 1, "url": "bitdefender" }],
     "similarApps": [
       { "id": 28, "title": "Malwarebytes", "img": "malwarebytes" },
       { "id": 30, "title": "Avast", "img": "avast" }
@@ -1083,7 +1083,7 @@
         "linux": "https://dl.flathub.org/repo/appstream/com.obsproject.Studio.flatpakref"
       }
     ],
-    "screenshots": [{ "id": 1, "url": "obs-1" }],
+    "screenshots": [{ "id": 1, "url": "obs" }],
     "similarApps": [{ "id": 40, "title": "Bandicam", "img": "bandicam" }],
 
     "img": "obs",
