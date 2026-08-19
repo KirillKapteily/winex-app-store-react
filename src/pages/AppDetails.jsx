@@ -42,23 +42,27 @@ export default function AppDetails({ os }) {
             </div>
           </div>
           <div className={styles.more__info__wrapper}>
-<div className={styles.app__security}>
-            <ShieldCheck size={64} className={styles.app__security__ico} />
-            <p>This software is 100% safe</p>
-          </div>
-          <div className={styles.app__copyright}>
-            <Copyright size={64} className={styles.app__copyright__ico} />
-            <p>
-              This app is developed by <br />{" "}
-              <a href={app.devLink}>{app.developer}</a>
-            </p>
-          </div>
+            <div className={styles.app__security}>
+              <ShieldCheck size={64} className={styles.app__security__ico} />
+              <p>This software is 100% safe</p>
+            </div>
+            <div className={styles.app__copyright}>
+              <Copyright size={64} className={styles.app__copyright__ico} />
+              <p className={styles.copyright__text}>
+                This app is developed by <br />{" "}
+                <a href={app.devLink}>{app.developer}</a>
+              </p>
+            </div>
           </div>
         </div>
 
         <div className={styles.wrapper}>
-          <strong>{app.description}</strong>
+          <div>
+             <strong>{app.description}</strong>
+          </div>
+
           <DownloadButton os={os} app={app} />
+
         </div>
 
         <ImgList app={app} openModal={openModal} />

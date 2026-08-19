@@ -11,7 +11,7 @@ export default function Footer() {
           <ul className={styles.footer__list}>
             <li><a href="#" className={styles.footer__link}>WinexAppStore</a></li>
             <li>
-              <p class="footer-text">Winex App Store Discover the ultimate app library with Winex App Store, your secure
+              <p>Winex App Store Discover the ultimate app library with Winex App Store, your secure
                 and modern
                 destination
                 for
@@ -43,7 +43,7 @@ export default function Footer() {
               <li className={styles.footer__item}><Globe className={styles.icon__fixer}/><a href="https://github.com/KirillKapteily" className={styles.footer__link}>GitHub</a></li>
             </ul>
           </div>
-          <p className={styles.version__p}>Version 1.0 Beta 2</p>
+          <p className={styles.version__p}>Version 1.0 Beta 3</p>
         </div>
 
       </div>

@@ -14,19 +14,21 @@ export default function Home({ os, setOs }) {
   useEffect(() => {
     console.log(filteredApps);
   }, [filter]);
+
   //app__selector
   return (
     <section>
       <div className={container.container}>
-        <select
+        <div className={styles.selector__wrapper}>
+<select
           name="OS"
           value={os}
           onChange={(e) => setOs(e.target.value)}
           className={styles.app__selector}
         >
-          <option value="0">Windows</option>
-          <option value="1">macOS</option>
-          <option value="2">Linux</option>
+          <option value="windows">Windows</option>
+          <option value="macos">macOS</option>
+          <option value="linux">Linux</option>
         </select>
 
         <select
@@ -46,7 +48,11 @@ export default function Home({ os, setOs }) {
           <option value="security">security</option>
           <option value="no-class">no classification</option>
           <option value="video-editors">video editors</option>
+           <option value="compatibility-layers">compatibility layers</option>
+            <option value="office">office</option>
         </select>
+        </div>
+        
 <Slider/>
 
         <h1 className={styles.main__title}>Apps</h1>

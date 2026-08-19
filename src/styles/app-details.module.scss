@@ -4,6 +4,13 @@
   gap: 30px;
   margin-top: 40px;
   margin-bottom: 40px;
+  background-color: #cfecff59;
+  border-radius: 30px;
+ padding: 10px;
+  box-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.149),
+    inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
+    inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
 }
 
 .app__info {
@@ -66,7 +73,7 @@
 .download__button {
   border-radius: 20px;
   text-decoration: none;
-  width: 170px;
+// width: 170px;
   padding: 10px 10px;
   color: white;
   font-size: 30px;
@@ -85,8 +92,9 @@
 
 .wrapper{
     display: flex;
-  flex-direction: column;
+flex-direction: column;
   gap: 10px;
+
 }
 
 .img {
@@ -113,6 +121,10 @@
 }
 
 
+.copyright__text{
+  text-align: center;
+}
+
 @media (min-width: 500px) and (max-width: 767px)  {
   .app__info__wrapper{
   flex-wrap: wrap;
@@ -130,6 +142,10 @@
   .app__info__wrapper{
     flex-direction: column;
   }
+
+.more__info__wrapper{
+  flex-direction: column;
+}
 
   .app__info{
   display: flex;

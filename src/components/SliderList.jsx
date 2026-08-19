@@ -5,7 +5,7 @@ export default function SliderList({ slider, slidePosition }) {
   return (
     <ul className={styles.slider__list}>
       {slider.map((slide) => (
-        <SliderItem slide={slide} slidePosition={slidePosition}/>
+        <SliderItem key={slide.id} slide={slide} slidePosition={slidePosition}/>
       ))}
     </ul>
   );
