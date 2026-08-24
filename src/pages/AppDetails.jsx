@@ -67,7 +67,7 @@ export default function AppDetails({ os }) {
 
         <ImgList app={app} openModal={openModal} />
 
-        <p>{app.longDescription}</p>
+        <p className={styles.description}>{app.longDescription}</p>
         <h3 className={styles.main__title}>Similar Apps</h3>
         {app.similarApps.length > 0 ? (
           <AppList apps={app.similarApps} />

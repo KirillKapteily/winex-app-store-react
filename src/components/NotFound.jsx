@@ -5,7 +5,7 @@ export default function NotFound(){
     return(
         <div className={styles.notfound__wrapper}>
             <img src={img} alt="not found icon" />
-            <h1 className={styles.error}>Try searching for something else</h1>
+            <h1 className={styles.error}>No apps found</h1>
         </div>
     )
 }

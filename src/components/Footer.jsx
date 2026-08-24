@@ -43,7 +43,7 @@ export default function Footer() {
               <li className={styles.footer__item}><Globe className={styles.icon__fixer}/><a href="https://github.com/KirillKapteily" className={styles.footer__link}>GitHub</a></li>
             </ul>
           </div>
-          <p className={styles.version__p}>Version 1.0 Beta 3</p>
+          <p className={styles.version__p}>Version 1.0 Beta 4</p>
         </div>
 
       </div>

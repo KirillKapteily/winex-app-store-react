@@ -3,7 +3,6 @@ import styles from "../styles/settings.module.scss"
 
 export default function Settings({transparency, setTransparency}) {
 
-
   const toggleTransparency = () => {
     if (transparency === "transparent") {
       setTransparency("solid");
@@ -11,7 +10,6 @@ export default function Settings({transparency, setTransparency}) {
       setTransparency("transparent");
     }
   };
-
 
   return (
     <section>

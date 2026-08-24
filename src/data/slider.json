@@ -1,18 +1,21 @@
 [
     {
         "id": 1,
+        "slideID": 1,
         "title": "Firefox",
         "img": "firefox-1",
         "description": "Powerfull and popular web browser"
     },
     {
         "id": 14,
+           "slideID": 2,
         "title": "Apple Music",
         "img": "applemusic-1",
         "description": "So many songs in good quality"
     },
     {
         "id": 29,
+           "slideID": 3,
         "title": "BitDefender",
         "img": "bitdefender",
         "description": "Good antivirus"

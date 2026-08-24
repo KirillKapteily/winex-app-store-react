@@ -30,7 +30,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home os={os} setOs={setOs} />} />
           <Route path="/apps" element={<Home os={os} setOs={setOs} />} />
-          <Route path="/search" element={<Search />} />
+          <Route path="/search" element={<Search os={os} setOs={setOs}/>} />
           <Route
             path="/settings"
             element={

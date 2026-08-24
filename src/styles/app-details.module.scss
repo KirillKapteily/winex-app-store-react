@@ -97,6 +97,10 @@ flex-direction: column;
 
 }
 
+.description{
+  max-width: 900px;
+}
+
 .img {
   margin-right: 20px;
   transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s, filter cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
@@ -141,6 +145,11 @@ flex-direction: column;
 @media (min-width: 320px) and (max-width: 480px)  {
   .app__info__wrapper{
     flex-direction: column;
+  }
+
+  .download__button{
+width: 170px!important;
+height: 170px!important;
   }
 
 .more__info__wrapper{

@@ -19,8 +19,8 @@
     margin cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s,
     box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
   backdrop-filter: var(--transparentGlass);
-  padding: 10px;
   background: var(--transparent);
+  padding: 10px;
   border: solid 0.5px rgba(255, 255, 255, 0.077);
   box-shadow:
     0 4px 15px rgba(0, 0, 0, 0.149),
@@ -39,6 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   min-height: 64px;
   padding-right: 24px;
   padding-left: 24px;

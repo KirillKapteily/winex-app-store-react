@@ -4,15 +4,15 @@ import NotFound from "./NotFound";
 
 export default function AppList({ apps }) {
 console.log(apps);
-console.log(apps.length);
+//console.log(apps.length);
 
-if (apps.length === 0) {
+if (apps?.length === 0) {
   return <NotFound/>
 }
 
   return (
     <ul className={styles.app__list}>
-      {apps.map((app) => (
+      {apps?.map((app) => (
         <AppItem key={app.id} app={app} />
       ))}
     </ul>

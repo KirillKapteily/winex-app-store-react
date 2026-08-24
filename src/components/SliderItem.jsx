@@ -2,16 +2,29 @@ import { getScreenImageURL } from "../image-util-screens";
 import { Link } from "react-router-dom";
 import { Download } from "lucide-react";
 import styles from "../styles/slider-item.module.scss";
+import { getSlideId } from "../api/api";
+import { useMemo } from "react";
+import NotFound from "./NotFound";
 
-export default function SliderItem({ slide, slidePosition }) {
+export default function SliderItem({ slide, slideId }) {
+  let slideInfo = useMemo(() => {
+    return getSlideId(slideId);
+  }, [slideId]);
+
+  if (!slideInfo) return <NotFound/>;
+
   return (
-    <li className={styles.slider__item} style={{ transform: `translateX(-${slidePosition}px)`}}>
-         <h3>{slide.title}</h3>
-      <img src={getScreenImageURL(slide.img)} alt={slide.title} width="300"/>
-      <p>{slide.description}</p>
-         <Link to={`/${slide.id}`} className={styles.download__btn}>
-     <Download/> Download
-         </Link>
-    </li>
+    <div className={styles.slider__item}>
+      <h3>{slideInfo.title}</h3>
+      <img
+        src={getScreenImageURL(slideInfo.img)}
+        alt={slideInfo.title}
+        className={styles.slider__img}
+      />
+      <p>{slideInfo.description}</p>
+      <Link to={`/${slideInfo.id}`} className={styles.download__btn}>
+        <Download /> Download
+      </Link>
+    </div>
   );
 }

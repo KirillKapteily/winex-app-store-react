@@ -26,6 +26,7 @@
       { "id": 3, "title": "Microsoft Edge", "img": "microsoftedge" },
       { "id": 4, "title": "Opera", "img": "opera" }
     ],
+    "operatingSystems": ["windows", "macos", "linux"],
     "type": "browser"
   },
   {
@@ -55,7 +56,7 @@
       { "id": 4, "title": "Opera", "img": "opera" }
     ],
     "img": "googlechrome",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "browser"
   },
   {
@@ -85,7 +86,7 @@
       { "id": 4, "title": "Opera", "img": "opera" }
     ],
     "img": "microsoftedge",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "browser"
   },
   {
@@ -115,7 +116,7 @@
       { "id": 5, "title": "Supermium", "img": "supermium" }
     ],
     "img": "opera",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "browser"
   },
   {
@@ -142,6 +143,7 @@
     ],
 
     "img": "supermium",
+    "operatingSystems": ["windows"],
     "type": "browser"
   },
   {
@@ -174,6 +176,7 @@
     ],
 
     "img": "telegram",
+    "operatingSystems": ["windows", "macos", "linux"],
     "type": "messengers"
   },
   {
@@ -201,6 +204,7 @@
       { "id": 10, "title": "Teams", "img": "teams" }
     ],
     "img": "discord",
+    "operatingSystems": ["windows", "macos", "linux"],
     "type": "messengers"
   },
   {
@@ -233,6 +237,7 @@
     ],
 
     "img": "viber",
+    "operatingSystems": ["windows", "macos", "linux"],
     "type": "messengers"
   },
   {
@@ -263,6 +268,7 @@
     ],
 
     "img": "whatsapp",
+    "operatingSystems": ["windows", "macos"],
     "type": "messengers"
   },
   {
@@ -292,6 +298,7 @@
     ],
 
     "img": "teams",
+    "operatingSystems": ["windows", "macos"],
     "type": "messengers"
   },
   {
@@ -318,7 +325,7 @@
     ],
 
     "img": "instagram",
-
+"operatingSystems": ["windows"],
     "type": "social-network"
   },
   {
@@ -345,6 +352,7 @@
     ],
 
     "img": "facebook",
+    "operatingSystems": ["windows"],
     "type": "social-network"
   },
   {
@@ -371,6 +379,7 @@
     ],
 
     "img": "threads",
+    "operatingSystems": ["windows"],
     "type": "social-network"
   },
   {
@@ -401,7 +410,7 @@
     ],
 
     "img": "applemusic",
-
+"operatingSystems": ["windows", "macos"],
     "type": "streaming-servises"
   },
   {
@@ -430,6 +439,7 @@
     ],
 
     "img": "spotify",
+    "operatingSystems": ["windows", "macos", "linux"],
     "type": "streaming-servises"
   },
   {
@@ -460,7 +470,7 @@
     ],
 
     "img": "appletv",
-
+"operatingSystems": ["windows", "macos"],
     "type": "streaming-servises"
   },
   {
@@ -489,7 +499,7 @@
     ],
 
     "img": "netflix",
-
+"operatingSystems": ["windows"],
     "type": "streaming-servises"
   },
   {
@@ -518,7 +528,7 @@
     ],
 
     "img": "hulu",
-
+"operatingSystems": ["windows"],
     "type": "streaming-servises"
   },
   {
@@ -543,7 +553,7 @@
     ],
 
     "img": "dropbox",
-
+"operatingSystems": ["windows", "macos"],
     "type": "cloud-servises"
   },
   {
@@ -568,7 +578,7 @@
     ],
 
     "img": "googledrive",
-
+"operatingSystems": ["windows", "macos"],
     "type": "cloud-servises"
   },
   {
@@ -621,7 +631,7 @@
     "similarApps": [{ "id": 23, "title": "Epic Games", "img": "epicgames" }],
 
     "img": "steam",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "games"
   },
   {
@@ -643,7 +653,7 @@
     "similarApps": [{ "id": 22, "title": "Steam", "img": "steam" }],
 
     "img": "epicgames",
-
+"operatingSystems": ["windows", "macos"],
     "type": "games"
   },
   {
@@ -672,7 +682,7 @@
     ],
 
     "img": "visualstudiocode",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "programing"
   },
   {
@@ -700,7 +710,7 @@
     ],
 
     "img": "githubdesktop",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "programing"
   },
   {
@@ -725,7 +735,7 @@
     ],
 
     "img": "gitbash",
-
+"operatingSystems": ["windows"],
     "type": "programing"
   },
   {
@@ -758,7 +768,7 @@
     ],
 
     "img": "arduinoide",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "programing"
   },
   {
@@ -783,7 +793,7 @@
     ],
 
     "img": "malwarebytes",
-
+"operatingSystems": ["windows", "macos"],
     "type": "security"
   },
   {
@@ -807,7 +817,7 @@
     ],
 
     "img": "bitdefender",
-
+"operatingSystems": ["windows", "macos"],
     "type": "security"
   },
   {
@@ -831,7 +841,8 @@
     ],
 
     "img": "avast",
-    "type": "Security"
+    "operatingSystems": ["windows", "macos"],
+    "type": "security"
   },
   {
     "id": 31,
@@ -856,7 +867,7 @@
     "similarApps": [],
 
     "img": "anydesk",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "no-class"
   },
   {
@@ -876,7 +887,7 @@
     "similarApps": [],
 
     "img": "appledevices",
-
+"operatingSystems": ["windows", "macos"],
     "type": "no-class"
   },
   {
@@ -897,7 +908,7 @@
     "similarApps": [],
 
     "img": "docker",
-
+"operatingSystems": ["windows", "macos"],
     "type": "programing"
   },
   {
@@ -921,7 +932,7 @@
     "similarApps": [],
 
     "img": "microsoftpcmanager",
-
+"operatingSystems": ["windows", "macos"],
     "type": "no-class"
   },
   {
@@ -946,7 +957,7 @@
     "similarApps": [],
 
     "img": "evernote",
-
+"operatingSystems": ["windows", "macos"],
     "type": "no-class"
   },
   {
@@ -972,7 +983,7 @@
     "similarApps": [],
 
     "img": "zoom",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "no-class"
   },
   {
@@ -1000,7 +1011,7 @@
     "similarApps": [],
 
     "img": "vlc",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "no-class"
   },
   {
@@ -1022,7 +1033,7 @@
     "similarApps": [{ "id": 40, "title": "Bandicam", "img": "bandicam" }],
 
     "img": "obs",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "screen-recorders"
   },
   {
@@ -1046,7 +1057,7 @@
     "similarApps": [{ "id": 40, "title": "OBS", "img": "obs" }],
 
     "img": "bandicam",
-
+"operatingSystems": ["windows"],
     "type": "screen-recorders"
   },
   {
@@ -1074,7 +1085,7 @@
     ],
 
     "img": "figma",
-
+"operatingSystems": ["windows", "macos"],
     "type": "design"
   },
   {
@@ -1102,7 +1113,7 @@
     ],
 
     "img": "pixso",
-
+"operatingSystems": ["windows", "macos"],
     "type": "design"
   },
   {
@@ -1130,7 +1141,7 @@
     ],
 
     "img": "canva",
-
+"operatingSystems": ["windows", "macos"],
     "type": "design"
   },
   {
@@ -1155,7 +1166,7 @@
     "similarApps": [{ "id": 46, "title": "Affinity", "img": "affinity" }],
 
     "img": "gimp",
-
+"operatingSystems": ["windows", "macos", "linux"],
     "type": "photo-editors"
   },
   {
@@ -1176,7 +1187,7 @@
     "similarApps": [{ "id": 45, "title": "Gimp", "img": "gimp" }],
 
     "img": "affinity",
-
+"operatingSystems": ["windows", "macos"],
     "type": "photo-editors"
   },
   {
@@ -1200,7 +1211,7 @@
     "similarApps": [{ "id": 48, "title": "Capcut", "img": "capcut" }],
 
     "img": "clipchamp",
-
+"operatingSystems": ["windows"],
     "type": "video-editors"
   },
   {
@@ -1225,7 +1236,7 @@
     "similarApps": [{ "id": 47, "title": "Clipchamp", "img": "clipchamp" }],
 
     "img": "capcut",
-
+"operatingSystems": ["windows", "macos"],
     "type": "video-editors"
   },
   {
@@ -1244,7 +1255,7 @@
     "similarApps": [{ "id": 50, "title": "Pages", "img": "pages" }],
 
     "img": "numbers",
-
+"operatingSystems": ["macos"],
     "type": "office"
   },
   {
@@ -1263,7 +1274,7 @@
     "similarApps": [{ "id": 49, "title": "Numbers", "img": "numbers" }],
 
     "img": "pages",
-
+"operatingSystems": ["macos"],
     "type": "office"
   },
   {
@@ -1283,7 +1294,7 @@
     "similarApps": [],
 
     "img": "wine",
-
+"operatingSystems": ["macos", "linux"],
     "type": "compatibility-layers"
   },
   {
@@ -1308,7 +1319,7 @@
     ],
 
     "img": "xcode",
-
+"operatingSystems": ["macos"],
     "type": "programing"
   }
 ]

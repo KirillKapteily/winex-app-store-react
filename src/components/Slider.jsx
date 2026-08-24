@@ -1,34 +1,30 @@
-import SliderList from "./SliderList";
+
 import { getSlider } from "../api/api";
 import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 import { ChevronLeft } from "lucide-react";
 import styles from "../styles/slider.module.scss"
+import SliderItem from "./SliderItem";
 
 export default function Slider() {
   const slider = getSlider();
-  const [slidePosition, setSlidePosition] = useState(0);
+  const [slideId, setSlideId] = useState(1);
 
   const nextSlide = () => {
-    if (slidePosition < 301) {
-      setSlidePosition((s) => s + 300);
-      console.log(slidePosition);
-    } else {
-      setSlidePosition(0);
-    } 
+    if (slideId !== 3) {
+      setSlideId((s) => s + 1);
+    }
   };
   const prevSlide = () => {
-    if (slidePosition > 0) {
-      setSlidePosition((s) => s - 300);
-      console.log(slidePosition);
-    } else {
-          console.log(slidePosition);
+    if (slideId !== 1) {
+       setSlideId((s) => s - 1); 
     }
+    
   };
 
   return (
     <div className={styles.slider}>
-      <SliderList slider={slider} slidePosition={slidePosition} />
+      <SliderItem slider={slider}  slideId={slideId}/>
       <div className={styles.slider__btn__wrapper}>
         <button onClick={prevSlide} className={styles.slider__button}>
         <ChevronLeft />
