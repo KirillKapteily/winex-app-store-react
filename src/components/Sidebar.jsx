@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
-    <div>
+    <nav>
       <ul className={styles.list}>
         <li className={styles.item}>
           <Link to="search?query=" className={styles.link}>
@@ -16,6 +16,6 @@ export default function Sidebar() {
           </Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }

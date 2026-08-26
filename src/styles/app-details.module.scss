@@ -129,6 +129,10 @@ flex-direction: column;
   text-align: center;
 }
 
+.safe__text{
+  text-align: center;
+}
+
 @media (min-width: 500px) and (max-width: 767px)  {
   .app__info__wrapper{
   flex-wrap: wrap;

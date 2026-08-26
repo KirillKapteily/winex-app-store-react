@@ -11,7 +11,7 @@ export default function SliderItem({ slide, slideId }) {
     return getSlideId(slideId);
   }, [slideId]);
 
-  if (!slideInfo) return <NotFound/>;
+  if (!slideInfo) return <NotFound />;
 
   return (
     <div className={styles.slider__item}>

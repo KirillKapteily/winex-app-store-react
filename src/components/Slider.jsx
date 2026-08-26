@@ -1,8 +1,7 @@
 
 import { getSlider } from "../api/api";
 import { useState } from "react";
-import { ChevronRight } from "lucide-react";
-import { ChevronLeft } from "lucide-react";
+import { ChevronRight, ChevronLeft } from "lucide-react";
 import styles from "../styles/slider.module.scss"
 import SliderItem from "./SliderItem";
 
@@ -11,7 +10,7 @@ export default function Slider() {
   const [slideId, setSlideId] = useState(1);
 
   const nextSlide = () => {
-    if (slideId !== 3) {
+    if (slideId !== slider.length) {
       setSlideId((s) => s + 1);
     }
   };
@@ -19,7 +18,6 @@ export default function Slider() {
     if (slideId !== 1) {
        setSlideId((s) => s - 1); 
     }
-    
   };
 
   return (

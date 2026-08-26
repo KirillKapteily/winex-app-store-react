@@ -15,8 +15,7 @@
   align-items: center;
   border-radius: 30px;
   transition:
-    transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s,
-    margin cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s,
+    background-color cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s,
     box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
   backdrop-filter: var(--transparentGlass);
   background: var(--transparent);
@@ -51,14 +50,9 @@
 
 .app__search__btn {
   @extend .app__search;
-  // background: linear-gradient(to top, #cfecff86, #ffffff5b);
   color: #121212;
 
   &:hover {
-    box-shadow:
-      0 4px 15px rgba(0, 0, 0, 0.287),
-      inset 0 2px 5px rgba(0, 145, 255, 0.263);
-    background: #ffffff62;
-    //  background: linear-gradient(to top, #cfecff, #ffffff00);
+    background: #ffffff77;
   }
 }

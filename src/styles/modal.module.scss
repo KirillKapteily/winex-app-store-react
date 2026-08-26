@@ -1,10 +1,10 @@
-:root {
-  --zoom: 80%;
-}
+// :root {
+//   --zoom: 80%;
+// }
 
-[data-theme="zoomed"] {
-  --zoom: 100%;
-}
+// [data-theme="zoomed"] {
+//   --zoom: 100%;
+// }
 
 .overlay {
   position: fixed;
@@ -17,19 +17,50 @@
   align-items: center;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 12023213230;
+  z-index: 12023230;
 }
 
 .modal {
     display: flex;
   justify-content: center;
   align-items: center;
-
   // max-width: calc(100vw - 348px);
   // max-height: calc(100vh - 324px);
+
 }
+
+.modal__btn{
+  z-index: 21928347982;
+    background: #ffffff71;
+    font-size: 40px;
+  color: rgb(0, 0, 0);
+  border: solid 0.5px white;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.149),
+    inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
+    inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  margin-top: 20px;
+
+  &:hover {
+    background-color: #0000006f;
+    border: white;
+    color: white;
+    border: solid 0.5px white;
+  }
+}
+
+.model__wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
 .img{
-    width: var(--zoom);
+    width: 80%;
+    position: relative;
   height: auto;
 }
 

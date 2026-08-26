@@ -3,8 +3,6 @@ import styles from "../styles/list.module.scss";
 import NotFound from "./NotFound";
 
 export default function AppList({ apps }) {
-console.log(apps);
-//console.log(apps.length);
 
 if (apps?.length === 0) {
   return <NotFound/>

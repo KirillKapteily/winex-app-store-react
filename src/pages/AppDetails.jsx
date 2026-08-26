@@ -44,7 +44,7 @@ export default function AppDetails({ os }) {
           <div className={styles.more__info__wrapper}>
             <div className={styles.app__security}>
               <ShieldCheck size={64} className={styles.app__security__ico} />
-              <p>This software is 100% safe</p>
+              <p className={styles.safe__text}>This software is 100% safe</p>
             </div>
             <div className={styles.app__copyright}>
               <Copyright size={64} className={styles.app__copyright__ico} />

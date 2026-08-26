@@ -20,10 +20,6 @@ function App() {
     document.body.setAttribute("data-theme", transparency);
   }, [transparency]);
 
-  useEffect(() => {
-    console.log(os);
-        localStorage.setItem("os", os)
-  }, [os]);
   return (
     <>
       <Routes>

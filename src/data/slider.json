@@ -1,23 +1,30 @@
 [
-    {
-        "id": 1,
-        "slideID": 1,
-        "title": "Firefox",
-        "img": "firefox-1",
-        "description": "Powerfull and popular web browser"
-    },
-    {
-        "id": 14,
-           "slideID": 2,
-        "title": "Apple Music",
-        "img": "applemusic-1",
-        "description": "So many songs in good quality"
-    },
-    {
-        "id": 29,
-           "slideID": 3,
-        "title": "BitDefender",
-        "img": "bitdefender",
-        "description": "Good antivirus"
-    }
+  {
+    "id": 1,
+    "slideID": 1,
+    "title": "Firefox",
+    "img": "firefox-1",
+    "description": "Powerfull and popular web browser"
+  },
+  {
+    "id": 14,
+    "slideID": 2,
+    "title": "Apple Music",
+    "img": "applemusic-1",
+    "description": "So many songs in good quality"
+  },
+  {
+    "id": 6,
+    "slideID": 3,
+    "title": "Telegram",
+    "img": "telegram-1",
+    "description": "messaging app with a focus on security and speed."
+  },
+  {
+    "id": 29,
+    "slideID": 4,
+    "title": "Bitdefendeer",
+    "img": "bitdefender",
+    "description": "Good Antivirus"
+  }
 ]

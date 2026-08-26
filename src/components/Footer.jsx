@@ -38,12 +38,12 @@ export default function Footer() {
           </ul>
           <div>
             <ul className={styles.footer__list}>
-              <li className={styles.footer__item}><Mail className={styles.icon__fixer}/><a href="mailto:lenaplop980@icloud.com" className={styles.footer__link}>lenaplop980@icloud.com</a>
+              <li className={styles.footer__item}><a href="mailto:lenaplop980@icloud.com" className={styles.footer__link}><Mail className={styles.icon__fixer}/>lenaplop980@icloud.com</a>
               </li>
-              <li className={styles.footer__item}><Globe className={styles.icon__fixer}/><a href="https://github.com/KirillKapteily" className={styles.footer__link}>GitHub</a></li>
+              <li className={styles.footer__item}><a href="https://github.com/KirillKapteily" className={styles.footer__link}><Globe className={styles.icon__fixer}/>GitHub</a></li>
             </ul>
           </div>
-          <p className={styles.version__p}>Version 1.0 Beta 4</p>
+          <p className={styles.version__p}>Version 1.0 Beta 5</p>
         </div>
 
       </div>
