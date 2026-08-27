@@ -31,10 +31,11 @@
 
 .modal__btn{
   z-index: 21928347982;
-    background: #ffffff71;
+    background: #ffffff99;
     font-size: 40px;
   color: rgb(0, 0, 0);
   border: solid 0.5px white;
+  padding: 10px;
   border-radius: 50px;
   padding: 10px;
   box-shadow:
@@ -60,7 +61,9 @@
 
 .img{
     width: 80%;
+    transition: width 0.5s;
     position: relative;
   height: auto;
+
 }
 

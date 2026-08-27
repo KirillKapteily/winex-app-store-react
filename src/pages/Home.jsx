@@ -9,14 +9,12 @@ import styles from "../styles/selector.module.scss";
 
 export default function Home({ os, setOs }) {
   const [filter, setFilter] = useState("all");
-  // const apps = getApps();
   const filteredApps = filterApps(filter, os);
 
   useEffect(() => {
     console.log(filteredApps);
   }, [filter]);
 
-  //app__selector
   return (
     <section>
       <div className={container.container}>

@@ -1,10 +1,6 @@
 import apps from "../data/apps.json";
 import slides from "../data/slider.json";
 
-// export const getApps = () => {
-//   return apps;
-// };
-
 export const getApps = () => {
   return apps.filter((app) => app.downloadLinks?.os);
 };
@@ -29,7 +25,6 @@ export const getAppId = (appId) => {
 export const searchForApps = (query, os, filter) => {
 
 console.log("SEARCH DEBUG!!!!!!" , query, os, filter);
-
 
   if (filter === "all") {
      let search = apps.filter((app) =>

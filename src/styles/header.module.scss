@@ -2,6 +2,10 @@
     background-color: #cfecff;
     z-index: 12334;
     padding: 10px;
+    box-shadow:
+    0 4px 15px rgba(0, 0, 0, 0.149),
+    inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
+    inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
 }
 
 .list{
