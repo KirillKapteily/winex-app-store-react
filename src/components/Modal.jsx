@@ -20,6 +20,9 @@ export default function Modal({ url, closeModal }) {
   return (
     <div className={styles.overlay} onClick={() => closeModal()}>
       <div className={styles.model__wrapper}>
+         <button onClick={() => closeModal()} className={styles.modal__btn}>
+          X
+        </button>
         <button onClick={handleZoomIn} className={styles.modal__btn}>
           +
         </button>
