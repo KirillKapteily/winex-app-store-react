@@ -44,6 +44,7 @@ export default function Footer() {
             </ul>
           </div>
           <p className={styles.version__p}>Version 1.0 Beta 7.1</p>
+          <p>width: {window.innerWidth}px</p>
         </div>
 
       </div>
