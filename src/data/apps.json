@@ -1022,13 +1022,12 @@
     "longDescription": "Free and open-source software tool for video recording and live streaming OBS Studio (Open Broadcaster Software Studio) is a free and open-source software tool for video recording and live streaming. It's popular among content creators, streamers, and broadcasters due to its flexibility, advanced features, and compatibility across multiple operating systems (Windows, macOS, and Linux). OBS is maintained by a large community and is particularly favored for live streaming on platforms like Twitch, YouTube, and Facebook Live.",
     "developer": "OBS Project",
     "devLink": "https://obsproject.com/",
-    "downloadLinks": [
-      {
+    "downloadLinks":{
         "windows": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-32.2.2-Windows-x64-Installer.exe",
         "macos": "https://cdn-fastly.obsproject.com/downloads/obs-studio-32.2.2-macos-apple.dmg",
         "linux": "https://dl.flathub.org/repo/appstream/com.obsproject.Studio.flatpakref"
       }
-    ],
+    ,
     "screenshots": [{ "id": 1, "url": "obs" }],
     "similarApps": [{ "id": 40, "title": "Bandicam", "img": "bandicam" }],
 

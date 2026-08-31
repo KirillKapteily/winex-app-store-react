@@ -1,5 +1,6 @@
 import styles from "../styles/modal.module.scss";
 import Draggable from "react-draggable";
+import {CircleX, Plus, Minus} from "lucide-react";
 import { getScreenImageURL } from "../image-util-screens";
 import { useEffect, useState, useRef } from "react";
 
@@ -21,13 +22,13 @@ export default function Modal({ url, closeModal }) {
     <div className={styles.overlay} onClick={() => closeModal()}>
       <div className={styles.model__wrapper}>
          <button onClick={() => closeModal()} className={styles.modal__btn}>
-          X
+          <CircleX size={20}/>
         </button>
         <button onClick={handleZoomIn} className={styles.modal__btn}>
-          +
+          <Plus size={20}/>
         </button>
         <button onClick={handleZoomOut} className={styles.modal__btn}>
-          -
+          <Minus size={20}/>
         </button>
       </div>
       <div className={styles.modal}>

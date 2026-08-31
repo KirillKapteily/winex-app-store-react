@@ -20,7 +20,7 @@ export default function Search({ os, setOs }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (searchQuery === "") {
+    if (searchQuery.trim() === "") {
       alert("The field can't be empty");
       return;
     } else {
