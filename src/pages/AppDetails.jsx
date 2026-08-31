@@ -9,7 +9,7 @@ import AppList from "../components/AppList";
 import { useState } from "react";
 import Modal from "../components/Modal";
 import BackBtn from "../components/BackBtn";
-import container from "../styles/container.module.scss";
+import "../styles/container.scss";
 
 export default function AppDetails({ os }) {
   const { id } = useParams();
@@ -25,7 +25,7 @@ export default function AppDetails({ os }) {
 
   return (
     <section>
-      <div className={container.container}>
+      <div className="container">
         <BackBtn />
         <div className={styles.app__info__wrapper}>
           <div className={styles.app__info}>

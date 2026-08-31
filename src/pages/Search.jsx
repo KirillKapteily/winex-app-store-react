@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { searchForApps } from "../api/api";
 import AppList from "../components/AppList";
 import styles from "../styles/search.module.scss";
-import container from "../styles/container.module.scss";
+import "../styles/container.scss";
 import Selectors from "../components/Selectors";
 
 export default function Search({ os, setOs }) {
@@ -49,7 +49,7 @@ export default function Search({ os, setOs }) {
         />
       </form>
 
-      <div className={container.container}>
+      <div className="container">
         <AppList apps={apps} />
       </div>
     </section>

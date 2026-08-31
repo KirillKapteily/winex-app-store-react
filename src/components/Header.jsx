@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "../styles/header.module.scss";
-import container from "../styles/container.module.scss";
+import "../styles/container.scss";
 import { CircleX,  CircleEllipsis} from "lucide-react";
 import Sidebar from "./Sidebar";
 import { useState } from "react";
@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className={styles.hedaer}>
-      <div className={container.container}>
+      <div className="container">
         <div className={styles.header__wrapper}>
           <Link to="/apps" className={styles.link}>
             WinexAppStore

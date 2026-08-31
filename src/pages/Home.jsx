@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { getApps } from "../api/api";
 import { filterApps } from "../api/api";
 import Slider from "../components/Slider";
-import container from "../styles/container.module.scss";
+import "../styles/container.scss";
 import Selectors from "../components/Selectors";
 import styles from "../styles/selector.module.scss";
 
@@ -17,7 +17,7 @@ export default function Home({ os, setOs }) {
 
   return (
     <section>
-      <div className={container.container}>
+      <div className="container">
         <div className={styles.selector__wrapper}>
           <Selectors
             filter={filter}
