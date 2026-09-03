@@ -24,8 +24,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home os={os} setOs={setOs} />} />
-          <Route path="/apps" element={<Home os={os} setOs={setOs} />} />
+          {/* <Route  element={<Home os={os} setOs={setOs} />} /> */}
+          <Route index path="/apps" element={<Home os={os} setOs={setOs} />} />
           <Route path="/search" element={<Search os={os} setOs={setOs}/>} />
           <Route
             path="/settings"
@@ -37,7 +37,7 @@ function App() {
             }
           />
 
-          <Route path="/:id" element={<AppDetails os={os} />} />
+          <Route path="/apps/:id" element={<AppDetails os={os} />} />
 
           <Route path="*" element={<NotFound />} />
         </Route>

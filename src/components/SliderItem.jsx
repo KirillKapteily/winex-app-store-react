@@ -22,7 +22,7 @@ export default function SliderItem({ slide, slideId }) {
         className={styles.slider__img}
       />
       <p>{slideInfo.description}</p>
-      <Link to={`/${slideInfo.id}`} className={styles.download__btn}>
+      <Link to={`/apps/${slideInfo.id}`} className={styles.download__btn}>
         <Download /> Download
       </Link>
     </div>
