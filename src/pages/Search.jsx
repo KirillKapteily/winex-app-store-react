@@ -16,8 +16,6 @@ export default function Search({ os, setOs }) {
     setApps(searchForApps(searchQuery, os, filter));
   }, [searchParams, os, filter]);
 
-  let query = searchParams.get("query");
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if (searchQuery.trim() === "") {

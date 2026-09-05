@@ -36,7 +36,7 @@ export default function AppDetails({ os }) {
               className={styles.img}
             />
             <div className={styles.app__info__text}>
-              <h2>{app.title}</h2>
+              <h2 className={styles.app__title}>{app.title}</h2>
               <p>Version: {app.version}</p>
               <p>ID: {app.id}</p>
             </div>
@@ -57,12 +57,11 @@ export default function AppDetails({ os }) {
         </div>
 
         <div className={styles.wrapper}>
-          <div>
-             <strong>{app.description}</strong>
+          <div className={styles.app__description}>
+            <strong>{app.description}</strong>
           </div>
 
           <DownloadButton os={os} app={app} />
-
         </div>
 
         <ImgList app={app} openModal={openModal} />

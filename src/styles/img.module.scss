@@ -1,8 +1,7 @@
-.img{
-transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
+.img {
+  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
 
-    &:hover {
-       transform: scale(1.1);
-
-    }
+  &:hover {
+    transform: scale(1.1);
+  }
 }

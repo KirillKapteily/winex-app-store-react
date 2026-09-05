@@ -1053,7 +1053,7 @@
       { "id": 2, "url": "bandicam-2" },
       { "id": 3, "url": "bandicam-3" }
     ],
-    "similarApps": [{ "id": 40, "title": "OBS", "img": "obs" }],
+    "similarApps": [{ "id": 39, "title": "OBS", "img": "obs" }],
 
     "img": "bandicam",
 "operatingSystems": ["windows"],
