@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "../styles/header.module.scss";
 import "../styles/container.scss";
-import { CircleX,  CircleEllipsis} from "lucide-react";
+import { CircleX, CircleEllipsis} from "lucide-react";
 import Sidebar from "./Sidebar";
 import { useState } from "react";
 

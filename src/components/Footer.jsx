@@ -13,7 +13,7 @@ export default function Footer() {
                 WinexAppStore
               </a>
             </li>
-            <li>
+            <li className={styles.footer__item}>
               <p>
                 Winex App Store Discover the ultimate app library with Winex App
                 Store, your secure and modern destination for software on
@@ -23,7 +23,7 @@ export default function Footer() {
                 digital needs.
               </p>
             </li>
-            <li>
+            <li className={styles.footer__item}>
               <p>
                 The author does not own or claim any copyrights, trademarks,
                 patents, or other intellectual property rights relating to any
@@ -36,7 +36,7 @@ export default function Footer() {
                 us to resolve the situation.
               </p>
             </li>
-            <li>
+            <li className={styles.footer__item}>
               <p>App versions may vary.</p>
             </li>
           </ul>
@@ -62,7 +62,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <p className={styles.version__p}>Version 1.0 Beta 8</p>
+          <p className={styles.version__p}>Version 1.0 Beta 9</p>
         </div>
       </div>
     </footer>

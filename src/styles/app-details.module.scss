@@ -4,27 +4,27 @@
   gap: 30px;
   margin-top: 40px;
   margin-bottom: 40px;
-  background-color: #cfecff59;
+  background-color: var(--transparent);
   border-radius: 30px;
  padding: 10px;
-  box-shadow:
-    0 4px 15px rgba(0, 0, 0, 0.149),
-    inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
-    inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+  box-shadow:var(--itemShadow);
 }
 
 .app__title{
   font-size: 20px;
+  color: var(--textColor);
 }
 
 .app__info {
   display: flex;
   align-items: center;
+    color: var(--textColor);
 }
 
 .main__title{
   font-size: 30px;
   text-align: center;
+    color: var(--textColor);
 }
 
 .app__security {
@@ -76,6 +76,7 @@
 
 .app__description{
   margin-bottom: 10px;
+  color: var(--textColor);
 }
 
 .download__button {
@@ -106,6 +107,7 @@ flex-direction: column;
 
 .description{
   max-width: 900px;
+  color: var(--textColor);
 }
 
 .img {
@@ -145,15 +147,18 @@ flex-direction: column;
 
 .none{
   text-align: center;
+  color: var(--textColor);
 }
 
 
 .copyright__text{
   text-align: center;
+  color: var(--textColor);
 }
 
 .safe__text{
   text-align: center;
+  color:var(--textColor);
 }
 
 @media (min-width: 500px) and (max-width: 767px)  {

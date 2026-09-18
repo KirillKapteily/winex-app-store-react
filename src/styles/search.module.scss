@@ -1,11 +1,29 @@
 :root {
   --transparent: #ffffff3d;
+  --textColor: black;
   --transparentGlass: blur(7px);
+  --progressiveBackground: linear-gradient(to bottom, #e0f2ff, #ffffff00);
 }
 
-[data-theme="solid"] {
+[data-theme="light-solid"] {
   --transparent: #ffffff;
+    --textColor: black;
   --transparentGlass: blur(0px);
+    --progressiveBackground: linear-gradient(to bottom, #e0f2ff, #ffffff00);
+}
+
+[data-theme="dark-transparent"] {
+  --transparent: #0000003d;
+    --textColor: white;
+  --transparentGlass: blur(7px);
+    --progressiveBackground: linear-gradient(to bottom, #37454f, #ffffff00);
+}
+
+[data-theme="dark-solid"] {
+  --transparent: #000000;
+      --textColor: white;
+  --transparentGlass: blur(0px);
+  --progressiveBackground: linear-gradient(to bottom, #37454f, #ffffff00);
 }
 
 .app__search {
@@ -20,13 +38,10 @@
   background: var(--transparent);
   padding: 10px;
   border: solid 0.5px rgba(255, 255, 255, 0.077);
-  box-shadow:
-    0 4px 15px rgba(0, 0, 0, 0.149),
-    inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
-    inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+  box-shadow: var(--itemShadow);
 
   &::placeholder {
-    color: #161616cf;
+    color: var(--textColor);
   }
 }
 
@@ -44,13 +59,13 @@
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #fff;
-  background: linear-gradient(to bottom, #e0f2ff, #ffffff00);
+    color: var(--textColor);
+  background: var(--progressiveBackground);
 }
 
 .app__search__btn {
   @extend .app__search;
-  color: #121212;
+  color: var(--textColor);
 
   &:hover {
     background: #ffffff77;

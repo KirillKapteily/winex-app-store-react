@@ -1,8 +1,26 @@
+:root {
+  --backgroundColor: linear-gradient(to top, #a4daff, #cfecff, #e0f2ff);
+}
+
+[data-theme="light-solid"] {
+  --transparent: #ffffff;
+  --textColor: black;
+  --transparentGlass: blur(0px);
+}
+
+[data-theme="dark-transparent"] {
+  --backgroundColor: linear-gradient(to top, #000000, #274052, #002743);
+}
+
+[data-theme="dark-solid"] {
+  --backgroundColor: linear-gradient(to top, #000000, #274052, #002743);
+}
+
 body {
-background: linear-gradient(to top, #a4daff, #cfecff, #e0f2ff);
-   background-size: cover;
-   margin: 0px;
-   transition: 0.3s;
-   font-family: 'Roboto', Arial, sans-serif;
-   
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s background;
+  background: var(--backgroundColor);
+  background-size: cover;
+  margin: 0px;
+  transition: 0.3s;
+  font-family: "Roboto", Arial, sans-serif;
 }

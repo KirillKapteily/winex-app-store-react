@@ -14,11 +14,15 @@ function App() {
   const [transparency, setTransparency] = useState(
     localStorage.getItem("transparency") || "transparent",
   );
+    const [theme, setTheme] = useState(
+    localStorage.getItem("theme") || "light",
+  );
 
   useEffect(() => {
     localStorage.setItem("transparency", transparency);
-    document.body.setAttribute("data-theme", transparency);
-  }, [transparency]);
+        localStorage.setItem("theme", theme);
+    document.body.setAttribute("data-theme", `${theme}-${transparency}`);
+  }, [transparency, theme]);
 
   return (
     <>
@@ -33,6 +37,8 @@ function App() {
               <Settings
                 transparency={transparency}
                 setTransparency={setTransparency}
+                 theme={theme}
+                setTheme={setTheme}
               />
             }
           />

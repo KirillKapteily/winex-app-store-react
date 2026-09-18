@@ -1,11 +1,25 @@
-:root{
+:root {
   --transparent: #ffffff3d;
---transparentGlass: blur(7px);
+  --textColor: black;
+  --transparentGlass: blur(7px);
 }
 
-[data-theme="solid"]{
---transparent: #ffffff;
---transparentGlass: blur(0px);
+[data-theme="light-solid"] {
+  --transparent: #ffffff;
+  --textColor: black;
+  --transparentGlass: blur(0px);
+}
+
+[data-theme="dark-transparent"] {
+  --transparent: #0000003d;
+  --textColor: white;
+  --transparentGlass: blur(7px);
+}
+
+[data-theme="dark-solid"] {
+  --transparent: #000000;
+  --textColor: white;
+  --transparentGlass: blur(0px);
 }
 
 .app__selector {
@@ -18,14 +32,13 @@
   backdrop-filter: var(--transparentGlass);
   background: var(--transparent);
   border: rgba(0, 145, 255, 0.061) 1px solid;
-  box-shadow:
-    0 4px 15px rgba(0, 0, 0, 0.149),
-    inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
-    inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+  box-shadow: var(--itemShadow);
+  color: var(--textColor);
 }
 
 .main__title {
   text-align: center;
+  color: var(--textColor);
 }
 
 .second__title {
@@ -40,7 +53,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-.selector__wrapper {
-  margin-top: 10px;
-}
+  .selector__wrapper {
+    margin-top: 10px;
+  }
 }

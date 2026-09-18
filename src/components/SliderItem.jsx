@@ -15,13 +15,13 @@ export default function SliderItem({ slide, slideId }) {
 
   return (
     <div className={styles.slider__item}>
-      <h3>{slideInfo.title}</h3>
+      <h3 className={styles.slider__title}>{slideInfo.title}</h3>
       <img
         src={getScreenImageURL(slideInfo.img)}
         alt={slideInfo.title}
         className={styles.slider__img}
       />
-      <p>{slideInfo.description}</p>
+      <p className={styles.slider__description}>{slideInfo.description}</p>
       <Link to={`/apps/${slideInfo.id}`} className={styles.download__btn}>
         <Download /> Download
       </Link>

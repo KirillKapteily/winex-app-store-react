@@ -1,3 +1,21 @@
+:root {
+  --textColor: black;
+}
+
+[data-theme="light-solid"] {
+    --textColor: black;
+}
+
+[data-theme="dark-transparent"] {
+    --textColor: white;
+}
+
+[data-theme="dark-solid"] {
+--textColor: white;
+}
+
+
+
 .footer__list {
   list-style: none;
   min-width: 300px;
@@ -11,14 +29,14 @@
 }
 
 .footer__item {
-  color: black;
+  color: var(--textColor);
   padding-bottom: 5px;
   display: flex;
   align-items: center;
 }
 
 .mailto {
-  color: black;
+  color: var(--textColor);
   text-decoration: none;
   font-size: 20px;
 }
@@ -26,7 +44,7 @@
 .footer__link {
   text-decoration: none;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s color;
-  color: black;
+  color: var(--textColor);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +64,7 @@
 }
 
 .version__p {
+  color: var(--textColor);
   font-size: 20px;
 }
 
