@@ -62,7 +62,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <p className={styles.version__p}>Version 1.0 Beta 9</p>
+          <p className={styles.version__p}>Version 1.0 Beta 10</p>
         </div>
       </div>
     </footer>

@@ -7,7 +7,6 @@ export default function Settings({
   theme,
   setTheme,
 }) {
-
   const toggleTransparency = () => {
     if (transparency === "transparent") {
       setTransparency("solid");
@@ -16,7 +15,7 @@ export default function Settings({
     }
   };
 
-   const toggleTheme = () => {
+  const toggleTheme = () => {
     if (theme === "light") {
       setTheme("dark");
     } else {
@@ -40,16 +39,19 @@ export default function Settings({
           Toggle Transparency to{" "}
           {transparency == "transparent" ? "solid" : "transparent"}
         </button>
-         <button
+        <br />
+        <button
           className={styles.transp__btn}
           onClick={toggleTheme}
           id={`theme-${theme}`}
         >
-          Toggle Theme to{" "}
-          {theme == "light" ? "dark" : "light"}
+          Toggle Theme to {theme == "light" ? "dark" : "light"}
         </button>
         <br />
-        <a href="https://unsplash.com/photos/river-in-yosemite-valley-at-low-light-NRQV-hBF10M?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">
+        <a
+          href="https://unsplash.com/photos/river-in-yosemite-valley-at-low-light-NRQV-hBF10M?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+          className={styles.settings__link}
+        >
           Photo link{" "}
         </a>
       </div>

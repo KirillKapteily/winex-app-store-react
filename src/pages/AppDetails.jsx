@@ -50,7 +50,7 @@ export default function AppDetails({ os }) {
               <Copyright size={64} className={styles.app__copyright__ico} />
               <p className={styles.copyright__text}>
                 This app is developed by <br />{" "}
-                <a href={app.devLink}>{app.developer}</a>
+                <a href={app.devLink} className={styles.devLink}>{app.developer}</a>
               </p>
             </div>
           </div>
