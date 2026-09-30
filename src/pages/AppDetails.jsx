@@ -29,12 +29,15 @@ export default function AppDetails({ os }) {
         <BackBtn />
         <div className={styles.app__info__wrapper}>
           <div className={styles.app__info}>
-            <img
-              src={getImageURL(app.img)}
-              alt={app.title}
-              width="150"
-              className={styles.img}
-            />
+            <div className={styles.img__wrapper}>
+              <img
+                src={getImageURL(app.img)}
+                alt={app.title}
+                width="150"
+                className={styles.img}
+              />
+            </div>
+
             <div className={styles.app__info__text}>
               <h2 className={styles.app__title}>{app.title}</h2>
               <p>Version: {app.version}</p>
@@ -50,7 +53,9 @@ export default function AppDetails({ os }) {
               <Copyright size={64} className={styles.app__copyright__ico} />
               <p className={styles.copyright__text}>
                 This app is developed by <br />{" "}
-                <a href={app.devLink} className={styles.devLink}>{app.developer}</a>
+                <a href={app.devLink} className={styles.devLink}>
+                  {app.developer}
+                </a>
               </p>
             </div>
           </div>
