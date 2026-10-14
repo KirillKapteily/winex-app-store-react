@@ -1,5 +1,5 @@
 :root {
-  --itemBackgroundColor: linear-gradient(to top, #cfecff2b, #ffffff00);
+  --itemBackgroundColor: linear-gradient(to top, #cfecff2b, #ffffff51);
   --textColor: black;
   --hilightColor: white;
   --itemShadow:
@@ -7,45 +7,47 @@
     inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
     inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
   --itemShadowHover:
-    0 4px 15px rgba(23, 23, 23, 0.39), inset 2px 2px 0px -2px rgb(255, 255, 255),
+    0 4px 15px rgba(23, 23, 23, 0.39),
+    inset 2px 2px 0px -2px rgb(255, 255, 255),
     inset 0 0 3px 1px rgb(255, 255, 255);
-     --imgContrastFixer: linear-gradient(to top, #00000049, #00000052); 
+  --imgContrastFixer: linear-gradient(to top, #00000049, #00000052);
 }
 
 [data-theme="light-solid"] {
   --textColor: black;
   --hilightColor: white;
-  --itemBackgroundColor: linear-gradient(to top, #cfecff2b, #ffffff00);
-   --itemShadow:
+  --itemBackgroundColor: linear-gradient(to top, #cfecff2b, #ffffff51);
+  --itemShadow:
     0 4px 15px rgba(0, 0, 0, 0.149),
     inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
     inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
   --itemShadowHover:
-    0 4px 15px rgba(23, 23, 23, 0.39), inset 2px 2px 0px -2px rgb(255, 255, 255),
+    0 4px 15px rgba(23, 23, 23, 0.39),
+    inset 2px 2px 0px -2px rgb(255, 255, 255),
     inset 0 0 3px 1px rgb(255, 255, 255);
-    --imgContrastFixer: linear-gradient(to top, #00000049, #00000052); 
+  --imgContrastFixer: linear-gradient(to top, #00000049, #00000052);
 }
 
 [data-theme="dark-transparent"] {
   --textColor: white;
   --hilightColor: rgba(0, 0, 0, 0.773);
-  --itemBackgroundColor: linear-gradient(to top, #0000002b, #ffffff00);
+   --itemBackgroundColor: linear-gradient(to top, #0000002b, #ffffff45);
   --itemShadow:
-    inset 0 2px 4px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(92, 92, 92, 0.396);
+    inset 0 2px 4px rgba(0, 0, 0, 0.3),
+    inset 2px 2px 0px -2px rgba(255, 255, 255, 0.5),
+    inset 0 0 3px 1px rgba(255, 255, 255, 0.5);
   --itemShadowHover:
-    inset 0 2px 4px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(0, 0, 0, 0.3);
-    --imgContrastFixer: linear-gradient(to top, #cfecff49, #ffffff52); 
+    inset 0 2px 4px rgba(0, 0, 0, 0.5),
+    inset 2px 2px 0px -2px rgba(255, 255, 255, 0.7),
+    inset 0 0 3px 1px rgba(255, 255, 255, 0.7);
+  --imgContrastFixer: linear-gradient(to top, #cfecff49, #ffffff52);
 }
 
 [data-theme="dark-solid"] {
   --textColor: white;
   --hilightColor: black;
-  --itemBackgroundColor: linear-gradient(to top, #0000002b, #ffffff00);
---itemShadow:
-    inset 0 2px 4px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(92, 92, 92, 0.396);
- --itemShadowHover:
-    inset 0 2px 4px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(0, 0, 0, 0.3);
-    --imgContrastFixer: linear-gradient(to top, #cfecff49, #ffffff52); 
+  --itemBackgroundColor: linear-gradient(to top, #0000002b, #ffffff45);
+  --imgContrastFixer: linear-gradient(to top, #cfecff49, #ffffff52);
 }
 
 .app__item {

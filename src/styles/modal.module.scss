@@ -32,11 +32,9 @@
   transition: background-color 0.1s ease-in-out;
   margin-top: 20px;
 
-  &:hover {
-    background-color: #0000006f;
-    border: white;
-    color: white;
-    border: solid 0.5px white;
+ &:hover {
+     background-color: var(--hilightColor);
+    color: var(--textColor);
   }
 }
 

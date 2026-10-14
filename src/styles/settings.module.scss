@@ -38,11 +38,9 @@
   transition: background-color 0.1s ease-in-out;
 
   &:hover {
-    background-color: #0000006f;
-    border: white;
+    background-color: var(--hilightColor);
     fill: white;
-    color: white;
-    border: solid 0.5px white;
+    color: var(--textColor);
   }
 }
 

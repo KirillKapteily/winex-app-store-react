@@ -10,9 +10,7 @@
   margin-top: 20px;
 
   &:hover {
-    background-color: #0000006f;
-    border: white;
-    color: white;
-    border: solid 0.5px white;
+     background-color: var(--hilightColor);
+    color: var(--textColor);
   }
 }
