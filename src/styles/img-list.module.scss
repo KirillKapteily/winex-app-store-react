@@ -1,8 +1,19 @@
-.img__list{
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding-left: 0px;
-        flex-wrap: wrap;
-    margin-top: 50px;
+.img__list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  .chrome49 & {
+    .img__list {
+      display: flex;
+      list-style: none;
+      padding-left: 0px;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      margin-right: 20px;
+    }
+  }
 }

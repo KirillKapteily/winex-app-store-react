@@ -27,6 +27,14 @@
         );
       }
     }(window.location))
+
+
+    var oldChrome = !window.Proxy || !window.fetch || (window.navigator.userAgent.indexOf('Chrome/49') !== -1);
+    
+    if (oldChrome) {
+        document.documentElement.className += "chrome49" ;
+        console.log("Outdated browser");
+    }
   </script>
   <title>winex-app-store-react</title>
 </head>

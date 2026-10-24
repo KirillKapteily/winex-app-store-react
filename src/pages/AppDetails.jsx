@@ -6,7 +6,7 @@ import DownloadButton from "../components/DownloadButton";
 import styles from "../styles/app-details.module.scss";
 import ImgList from "../components/ImgList";
 import AppList from "../components/AppList";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Modal from "../components/Modal";
 import BackBtn from "../components/BackBtn";
 import "../styles/container.scss";

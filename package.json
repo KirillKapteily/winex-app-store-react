@@ -27,6 +27,7 @@
     "@rolldown/plugin-babel": "^0.2.3",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-legacy": "^8.2.3",
     "@vitejs/plugin-react": "^6.0.4",
     "babel-plugin-react-compiler": "^1.0.0",
     "oxlint": "^1.75.0",
@@ -35,6 +36,7 @@
   "browserslist": [
     ">0.2%",
     "not dead",
-    "not op_mini all"
+    "not op_mini all",
+    "chrome 49"
   ]
 }
