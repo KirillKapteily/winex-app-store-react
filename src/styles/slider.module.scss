@@ -23,6 +23,7 @@
   color: var(--textColor);
   border: solid 0.5px var(--borderColor);
   border-radius: 50px;
+  margin-right: 10px;
   padding: 50px 10px;
   padding: 10px;
   box-shadow:var(--itemShadow);
@@ -45,5 +46,4 @@
 }
 .slider__btn__wrapper {
   display: flex;
-  gap: 20px;
 }

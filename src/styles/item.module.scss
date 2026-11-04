@@ -74,3 +74,24 @@
   text-decoration: none;
   text-align: center;
 }
+
+.chrome49__item{
+  margin-right: 10px;
+    margin-bottom: 10px;
+   display: flex;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background: var(--itemBackgroundColor);
+  border: solid 0.5px var(--hilightColor);
+  border-left: var(--hilightColor);
+  border-right: var(--hilightColor);
+  box-shadow: var(--itemShadow);
+
+  &:hover {
+    box-shadow: var(--itemShadowHover);
+  }
+}

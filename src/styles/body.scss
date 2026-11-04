@@ -17,8 +17,21 @@
 }
 
 body {
-  background: var(--backgroundColor);
+background: var(--backgroundColor);
   background-size: cover;
   margin: 0px;
   font-family: "Roboto", Arial, sans-serif;
+
+// &.chrome49{
+//   background: rgb(30, 255, 0);
+// }
 }
+
+body.chrome49{
+  background: rgb(30, 255, 0);
+}
+
+
+// .chrome49{
+//   background: rgb(255, 247, 0);
+// }

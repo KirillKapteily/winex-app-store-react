@@ -16,6 +16,7 @@ function App() {
   );
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
+
   useEffect(() => {
     localStorage.setItem("transparency", transparency);
     localStorage.setItem("theme", theme);

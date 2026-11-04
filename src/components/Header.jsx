@@ -18,12 +18,12 @@ export default function Header() {
           <ul className={styles.list}>
             <li className={styles.item}>
               <Link to="search?query=" className={styles.link}>
-                Search
+                Search 
               </Link>
             </li>
             <li className={styles.item}>
               <Link to="/settings" className={styles.link}>
-                Settings
+                 Settings 
               </Link>
             </li>
           </ul>
