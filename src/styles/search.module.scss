@@ -1,29 +1,25 @@
 :root {
-  --transparent: #ffffff3d;
+  --transparent: #ffffff4d;
   --textColor: black;
   --transparentGlass: blur(7px);
-  --progressiveBackground: linear-gradient(to bottom, #e0f2ff, #ffffff00);
 }
 
 [data-theme="light-solid"] {
   --transparent: #ffffff;
     --textColor: black;
   --transparentGlass: blur(0px);
-    --progressiveBackground: linear-gradient(to bottom, #e0f2ff, #ffffff00);
 }
 
 [data-theme="dark-transparent"] {
   --transparent: #0000003d;
     --textColor: white;
   --transparentGlass: blur(7px);
-    --progressiveBackground: linear-gradient(to bottom, #37454f, #ffffff00);
 }
 
 [data-theme="dark-solid"] {
   --transparent: #000000;
       --textColor: white;
   --transparentGlass: blur(0px);
-  --progressiveBackground: linear-gradient(to bottom, #37454f, #ffffff00);
 }
 
 .app__search {
@@ -60,7 +56,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
     color: var(--textColor);
-  background: var(--progressiveBackground);
+ // background: var(--progressiveBackground);
 }
 
 .app__search__btn {
@@ -68,6 +64,6 @@
   color: var(--textColor);
 
   &:hover {
-    background: #ffffff77;
+    background: var(--hilightColor);
   }
 }

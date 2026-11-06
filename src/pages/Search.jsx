@@ -32,7 +32,7 @@ export default function Search({ os, setOs }) {
       <form onSubmit={handleSubmit} className={styles.app__search__form}>
         <input
           type="text"
-          placeholder="Search"
+          placeholder="Search..."
           onChange={(e) => setSearchQuery(e.target.value)}
           className={styles.app__search}
         />

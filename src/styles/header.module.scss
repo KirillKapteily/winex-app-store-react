@@ -22,6 +22,8 @@
 .hedaer {
   background-color: var(--backplateColor);
   z-index: 12334;
+  border: solid 0.5px var(--hilightColor);
+  box-shadow: var(--itemShadow);
   padding: 10px;
 }
 

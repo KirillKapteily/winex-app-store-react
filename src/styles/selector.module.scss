@@ -1,26 +1,26 @@
-:root {
-  --transparent: #ffffff3d;
-  --textColor: black;
-  --transparentGlass: blur(7px);
-}
+// :root {
+//   --transparent: #ffffff3d;
+//   --textColor: black;
+//   --transparentGlass: blur(7px);
+// }
 
-[data-theme="light-solid"] {
-  --transparent: #ffffff;
-  --textColor: black;
-  --transparentGlass: blur(0px);
-}
+// [data-theme="light-solid"] {
+//   --transparent: #ffffff;
+//   --textColor: black;
+//   --transparentGlass: blur(0px);
+// }
 
-[data-theme="dark-transparent"] {
-  --transparent: #0000003d;
-  --textColor: white;
-  --transparentGlass: blur(7px);
-}
+// [data-theme="dark-transparent"] {
+//   --transparent: #0000003d;
+//   --textColor: white;
+//   --transparentGlass: blur(7px);
+// }
 
-[data-theme="dark-solid"] {
-  --transparent: #000000;
-  --textColor: white;
-  --transparentGlass: blur(0px);
-}
+// [data-theme="dark-solid"] {
+//   --transparent: #000000;
+//   --textColor: white;
+//   --transparentGlass: blur(0px);
+// }
 
 .app__selector {
   border-radius: 30px;
