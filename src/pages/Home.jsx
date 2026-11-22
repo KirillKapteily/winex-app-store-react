@@ -6,7 +6,6 @@ import Slider from "../components/Slider";
 import "../styles/container.scss";
 import Selectors from "../components/Selectors";
 import styles from "../styles/selector.module.scss";
-import Chrome49 from "../components/OldBrowserWarning";
 import OldBrowserWarning from "../components/OldBrowserWarning";
 import { isOldBrowser } from "../browser/browser-check";
 export default function Home({ os, setOs }) {

@@ -172,10 +172,20 @@ color: var(--linkColor);
   color: var(--textColor);
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+.app__title {
+  font-size: 17px;
+}
+}
+
 @media (min-width: 500px) and (max-width: 767px) {
   .app__info__wrapper {
     flex-wrap: wrap;
   }
+
+.app__title {
+  font-size: 17px;
+}
 
   .app__info {
     display: flex;

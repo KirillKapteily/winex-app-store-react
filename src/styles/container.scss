@@ -10,13 +10,13 @@
 margin: 0 auto;
 }
 
-@media (min-width: 786px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
 .container{
-    max-width: 786px;
+    max-width: 768px!important;
 }
 }
 
-@media (min-width: 500px) and (max-width: 785px) {
+@media (min-width: 500px) and (max-width: 767px) {
 .container{
     max-width: 500px!important;
 }

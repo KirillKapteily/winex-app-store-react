@@ -13,7 +13,7 @@ function App() {
   const [os, setOs] = useState(localStorage.getItem("os") || "windows");
   const [transparency, setTransparency] = useState(
     localStorage.getItem("transparency") || "transparent",
-  );
+  );  
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
 
