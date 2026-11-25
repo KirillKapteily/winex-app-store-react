@@ -1,23 +1,22 @@
 :root {
   --textColor: black;
-  --sliderBackground:linear-gradient(to top, #cfecff59, #ffffff12);
+  --sliderBackground: linear-gradient(to top, #cfecff59, #ffffff12);
 }
 
 [data-theme="light-solid"] {
   --textColor: black;
-  --sliderBackground:linear-gradient(to top, #cfecff59, #ffffff12);
+  --sliderBackground: linear-gradient(to top, #cfecff59, #ffffff12);
 }
 
 [data-theme="dark-transparent"] {
   --textColor: white;
-  --sliderBackground:linear-gradient(to top, #31373b59, #ffffff12);
+  --sliderBackground: linear-gradient(to top, #31373b59, #ffffff12);
 }
 
 [data-theme="dark-solid"] {
   --textColor: white;
-   --sliderBackground:linear-gradient(to top, #31373b59, #ffffff12);
+  --sliderBackground: linear-gradient(to top, #31373b59, #ffffff12);
 }
-
 
 .slider__item {
   display: flex;
@@ -31,20 +30,20 @@
   border: solid 0.5px var(--hilightColor);
   border-left: var(--hilightColor);
   border-right: var(--hilightColor);
-    box-shadow:var(--itemShadow);
+  box-shadow: var(--itemShadow);
 }
 
-.slider__title{
-    color: var(--textColor);
+.slider__title {
+  color: var(--textColor);
 }
 
-.slider__img{
+.slider__img {
   max-width: 900px;
   max-height: 900px;
 }
 
-.slider__description{
-      color: var(--textColor);
+.slider__description {
+  color: var(--textColor);
 }
 
 .download__btn {
@@ -66,16 +65,16 @@
     background-color: rgb(0, 119, 255);
   }
 }
-@media (min-width: 480px) and (max-width: 876px)  {
-.slider__img{
-  max-width: 500px;
-  max-height: 500px;
-}
+@media (min-width: 480px) and (max-width: 876px) {
+  .slider__img {
+    max-width: 500px;
+    max-height: 500px;
+  }
 }
 
-@media (min-width: 320px) and (max-width: 480px)  {
- .slider__img{
-  max-width: 300px;
-  max-height: 150px;
-}
+@media (min-width: 320px) and (max-width: 480px) {
+  .slider__img {
+    max-width: 300px;
+    max-height: 150px;
+  }
 }

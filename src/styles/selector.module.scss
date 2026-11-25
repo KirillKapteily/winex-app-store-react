@@ -1,31 +1,8 @@
-// :root {
-//   --transparent: #ffffff3d;
-//   --textColor: black;
-//   --transparentGlass: blur(7px);
-// }
-
-// [data-theme="light-solid"] {
-//   --transparent: #ffffff;
-//   --textColor: black;
-//   --transparentGlass: blur(0px);
-// }
-
-// [data-theme="dark-transparent"] {
-//   --transparent: #0000003d;
-//   --textColor: white;
-//   --transparentGlass: blur(7px);
-// }
-
-// [data-theme="dark-solid"] {
-//   --transparent: #000000;
-//   --textColor: white;
-//   --transparentGlass: blur(0px);
-// }
-
 .app__selector {
   border-radius: 30px;
   transition:
     transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s,
+    background-color cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s,
     margin cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s,
     box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
   padding: 10px;
@@ -34,6 +11,9 @@
   border: rgba(0, 145, 255, 0.061) 1px solid;
   box-shadow: var(--itemShadow);
   color: var(--textColor);
+  &:hover {
+    background: var(--hilightColor);
+  }
 }
 
 .main__title {
@@ -42,7 +22,7 @@
 }
 
 .second__title {
-    color: var(--textColor);
+  color: var(--textColor);
   text-align: center;
 }
 

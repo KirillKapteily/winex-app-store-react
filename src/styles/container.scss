@@ -1,25 +1,22 @@
 @media (max-width: 480px) {
-.container{
-    max-width: 320px!important;
-}
+  .container {
+    max-width: 320px !important;
+  }
 }
 
-
-.container{
-    width: 1200px;
-margin: 0 auto;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-.container{
-    max-width: 768px!important;
-}
+  .container {
+    max-width: 768px !important;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
-.container{
-    max-width: 500px!important;
+  .container {
+    max-width: 500px !important;
+  }
 }
-}
-
-

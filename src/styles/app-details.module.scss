@@ -15,11 +15,11 @@
   color: var(--textColor);
 }
 
-.img__wrapper{
+.img__wrapper {
   background: var(--imgContrastFixer);
   border-radius: 30px;
-    margin-right: 10px;
-    padding: 10px;
+  margin-right: 10px;
+  padding: 10px;
 }
 
 .app__info {
@@ -144,8 +144,8 @@
   }
 }
 
-.devLink{
-color: var(--linkColor);
+.devLink {
+  color: var(--linkColor);
 }
 
 .ico {
@@ -173,9 +173,9 @@ color: var(--linkColor);
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-.app__title {
-  font-size: 17px;
-}
+  .app__title {
+    font-size: 17px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
@@ -183,9 +183,9 @@ color: var(--linkColor);
     flex-wrap: wrap;
   }
 
-.app__title {
-  font-size: 17px;
-}
+  .app__title {
+    font-size: 17px;
+  }
 
   .app__info {
     display: flex;

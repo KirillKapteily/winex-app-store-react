@@ -9,7 +9,6 @@
 }
 
 [data-theme="dark-transparent"] {
-  //37454f
   --textColor: white;
   --backplateColor: #37454f;
 }
@@ -56,8 +55,8 @@
   cursor: pointer;
   transition: background-color 0.1s ease-in-out;
 
- &:hover {
-     background-color: var(--hilightColor);
+  &:hover {
+    background-color: var(--hilightColor);
     color: var(--textColor);
   }
 }

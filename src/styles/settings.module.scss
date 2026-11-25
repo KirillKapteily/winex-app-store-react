@@ -1,7 +1,7 @@
 :root {
   --transparent: #ffffff3d;
   --textColor: black;
-  --transparentGlass: blur(7px);
+  --transparentGlass: blur(10px);
   --linkColor: rgb(63, 63, 255);
 }
 
@@ -15,7 +15,7 @@
 [data-theme="dark-transparent"] {
   --transparent: #0000003d;
     --textColor: white;
-  --transparentGlass: blur(7px);
+  --transparentGlass: blur(10px);
     --linkColor: rgb(163, 163, 255);
 }
 

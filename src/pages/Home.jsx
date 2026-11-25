@@ -13,14 +13,6 @@ export default function Home({ os, setOs }) {
   const filteredApps = filterApps(filter, os);
   const [oldBrowser, setOldBrowser] = useState(isOldBrowser);
 
-  useEffect(() => {
- console.log(oldBrowser);
-  }, []);
-
-  useEffect(() => {
-    console.log(filteredApps);
-  }, [filter]);
-
   return (
     <section>
       <div className="container">
@@ -39,7 +31,6 @@ export default function Home({ os, setOs }) {
         <h1 className={styles.main__title}>Apps</h1>
         {filter !== "all" && <p className={styles.second__title}>{filter}</p>}
         <AppList apps={filteredApps} />
-        {/* <Chrome49/> */}
       </div>
     </section>
   );

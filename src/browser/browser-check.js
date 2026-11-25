@@ -1,13 +1,13 @@
 import Bowser from "bowser";
 
 function isOldBrowser(params) {
-    const browser = Bowser.getParser(window.navigator.userAgent).getBrowser();
-        const isOldChrome =
-          browser.name === "Chrome" && browser.version.includes("49");
+  const browser = Bowser.getParser(window.navigator.userAgent).getBrowser();
+  const isOldChrome =
+    browser.name === "Chrome" && browser.version.includes("49");
 
-        console.log(browser, isOldChrome);
+  console.log(browser, isOldChrome);
 
-    return isOldChrome;
+  return isOldChrome;
 }
 
-export {isOldBrowser}
+export { isOldBrowser };

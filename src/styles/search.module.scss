@@ -1,24 +1,24 @@
 :root {
   --transparent: #ffffff4d;
   --textColor: black;
-  --transparentGlass: blur(7px);
+  --transparentGlass: blur(10px);
 }
 
 [data-theme="light-solid"] {
   --transparent: #ffffff;
-    --textColor: black;
+  --textColor: black;
   --transparentGlass: blur(0px);
 }
 
 [data-theme="dark-transparent"] {
   --transparent: #0000003d;
-    --textColor: white;
-  --transparentGlass: blur(7px);
+  --textColor: white;
+  --transparentGlass: blur(10px);
 }
 
 [data-theme="dark-solid"] {
   --transparent: #000000;
-      --textColor: white;
+  --textColor: white;
   --transparentGlass: blur(0px);
 }
 
@@ -35,6 +35,10 @@
   padding: 10px;
   border: solid 0.5px rgba(255, 255, 255, 0.077);
   box-shadow: var(--itemShadow);
+
+  &:hover {
+    background: var(--hilightColor);
+  }
 
   &::placeholder {
     color: var(--textColor);
@@ -55,8 +59,7 @@
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-    color: var(--textColor);
- // background: var(--progressiveBackground);
+  color: var(--textColor);
 }
 
 .app__search__btn {
